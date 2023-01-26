@@ -74,11 +74,12 @@ exports.config = {
         // 5 instances get started at a time.
         maxInstances: 5,
         //
+    
+        acceptInsecureCerts: true,
         browserName: 'chrome',
         'goog:chromeOptions': { 
              args: ["--headless", "user-agent=...","--disable-gpu","--window-size=1440,735"]
         }
-        acceptInsecureCerts: true,
 
         // If outputDir is provided WebdriverIO can capture driver session logs
         // it is possible to configure which logTypes to include/exclude.
