@@ -3,7 +3,7 @@
 Setup:
 1. Clone the repo
 2. <code>npm install</code>
-3. To Run Tests: ENV=dev npx wdio --suite regression
+3. To Run Tests: <code>ENV=dev npx wdio --suite regression</code>
 
 Webdriver IO supporting parallel execution <br>
 Multi browser support <br>
